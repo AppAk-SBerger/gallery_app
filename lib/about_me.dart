@@ -55,7 +55,6 @@ class AboutMe extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
                 '\nJournalist\n'),
-            // Text(''),
             Text(
                 style: TextStyle(
                   color: AstroColors.astroWhite1,

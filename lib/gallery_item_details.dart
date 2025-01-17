@@ -5,9 +5,9 @@ import 'package:gallery_app/astro_colors.dart';
 import 'package:gallery_app/list_of_celestials.dart';
 
 class GalleryItemDetails extends StatelessWidget {
-  int index;
+  final int index;
 
-  GalleryItemDetails({super.key, required this.index});
+  const GalleryItemDetails({super.key, required this.index});
 
   @override
   Widget build(BuildContext context) {
